@@ -12,6 +12,7 @@ theme.PALLETE = {
     200: "#AEA8B2",
     300: "#605866",
   },
+  black : '#333',
   error: "#eb6144",
   background: {
     white: "#fff",
