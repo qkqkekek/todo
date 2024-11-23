@@ -3,6 +3,7 @@ import Layout from '../pages/layout/Layout';
 import Main from '../pages/main/Main';
 import TodoContainer from '../pages/todo/TodoContainer';
 import SignUp from '../pages/signUp/SignUp';
+import SignIn from '../pages/signIn/SignIn';
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path : '/signUp',
         element : <SignUp />
+      },
+      {
+        path : '/signIn',
+        element : <SignIn />
       }
     ]
   }
