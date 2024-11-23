@@ -34,10 +34,10 @@ const TodoContainer = () => {
   return (
     <div>
       <TodoInsert isTodoUpdate={isTodoUpdate} handleIsTodoUpdate={handleIsTodoUpdate} />
-      <p className='subTitle' >남은 할일 : 🙂 <span>{todos && todos.length}</span></p>
+      <p className='subTitle'>남은 할일 : 🙂 <span>{todos && todos.filter(({isChecked}) => !isChecked).length}</span></p>
       <ul>
         { todos && todos.map((todo, i) => (
-          <Todo todo={todo} key={i} />
+          <Todo isTodoUpdate={isTodoUpdate} handleIsTodoUpdate={handleIsTodoUpdate} todo={todo} key={i} />
         )) }
       </ul>
     </div>

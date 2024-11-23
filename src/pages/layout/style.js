@@ -13,7 +13,7 @@ const S = {}
 
   S.Wrapper = styled.div`
     width: 430px;
-    height: 100%;
+    height: 800px;
     background-color: #fff;
     display: flex;
     flex-direction: column;
