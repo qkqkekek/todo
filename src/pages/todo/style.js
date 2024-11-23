@@ -9,7 +9,7 @@ const S = {};
 
     & .complete {
       text-decoration: line-through;
-      color: #6A6EED;
+      color: #6A6EED; 
     }
   `
 
