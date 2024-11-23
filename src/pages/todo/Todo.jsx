@@ -13,7 +13,7 @@ const Todo = ({todo}) => {
     setIsEdit(!isEdit)
   }
 
-  // 투두 삭제
+  // 투두 삭제d
 
   return (
     <S.Li>
